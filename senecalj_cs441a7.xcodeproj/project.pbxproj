@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73135BEA18DF907300D54DBE /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73135BE918DF907300D54DBE /* ding.wav */; };
+		73135BEC18DF9F7400D54DBE /* instructions.png in Resources */ = {isa = PBXBuildFile; fileRef = 73135BEB18DF9F7400D54DBE /* instructions.png */; };
+		73135BEF18DFA2B800D54DBE /* sparks.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73135BED18DFA2B800D54DBE /* sparks.sks */; };
+		73135BF018DFA2B800D54DBE /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 73135BEE18DFA2B800D54DBE /* spark.png */; };
+		73135BF418DFB44300D54DBE /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73135BF318DFB44300D54DBE /* Images-2.xcassets */; };
 		733CBC2518DBF60300CD067A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733CBC2418DBF60300CD067A /* Foundation.framework */; };
 		733CBC2718DBF60300CD067A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733CBC2618DBF60300CD067A /* CoreGraphics.framework */; };
 		733CBC2918DBF60300CD067A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733CBC2818DBF60300CD067A /* UIKit.framework */; };
@@ -17,13 +22,15 @@
 		733CBC3A18DBF60300CD067A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733CBC3818DBF60300CD067A /* Main.storyboard */; };
 		733CBC3D18DBF60300CD067A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733CBC3C18DBF60300CD067A /* ViewController.m */; };
 		733CBC4018DBF60300CD067A /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 733CBC3F18DBF60300CD067A /* MyScene.m */; };
-		733CBC4218DBF60300CD067A /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 733CBC4118DBF60300CD067A /* Spaceship.png */; };
 		733CBC4418DBF60300CD067A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 733CBC4318DBF60300CD067A /* Images.xcassets */; };
 		733CBC4B18DBF60300CD067A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733CBC4A18DBF60300CD067A /* XCTest.framework */; };
 		733CBC4C18DBF60300CD067A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733CBC2418DBF60300CD067A /* Foundation.framework */; };
 		733CBC4D18DBF60300CD067A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733CBC2818DBF60300CD067A /* UIKit.framework */; };
 		733CBC5518DBF60300CD067A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 733CBC5318DBF60300CD067A /* InfoPlist.strings */; };
 		733CBC5718DBF60300CD067A /* senecalj_cs441a7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 733CBC5618DBF60300CD067A /* senecalj_cs441a7Tests.m */; };
+		73E6DA4718DED68800381141 /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73E6DA4618DED68800381141 /* pop.wav */; };
+		73EA154318DFBF9000A2B210 /* theme.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73EA154218DFBF9000A2B210 /* theme.wav */; };
+		73F7C7BA18DC2E1900101E86 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F7C7B818DC2E1900101E86 /* Tile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73135BE918DF907300D54DBE /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		73135BEB18DF9F7400D54DBE /* instructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instructions.png; sourceTree = "<group>"; };
+		73135BED18DFA2B800D54DBE /* sparks.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sparks.sks; sourceTree = "<group>"; };
+		73135BEE18DFA2B800D54DBE /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		73135BF318DFB44300D54DBE /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		733CBC2118DBF60300CD067A /* senecalj_cs441a7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = senecalj_cs441a7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		733CBC2418DBF60300CD067A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		733CBC2618DBF60300CD067A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,13 +65,16 @@
 		733CBC3C18DBF60300CD067A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		733CBC3E18DBF60300CD067A /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		733CBC3F18DBF60300CD067A /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		733CBC4118DBF60300CD067A /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		733CBC4318DBF60300CD067A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		733CBC4918DBF60300CD067A /* senecalj_cs441a7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = senecalj_cs441a7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		733CBC4A18DBF60300CD067A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		733CBC5218DBF60300CD067A /* senecalj_cs441a7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "senecalj_cs441a7Tests-Info.plist"; sourceTree = "<group>"; };
 		733CBC5418DBF60300CD067A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		733CBC5618DBF60300CD067A /* senecalj_cs441a7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = senecalj_cs441a7Tests.m; sourceTree = "<group>"; };
+		73E6DA4618DED68800381141 /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		73EA154218DFBF9000A2B210 /* theme.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = theme.wav; sourceTree = "<group>"; };
+		73F7C7B818DC2E1900101E86 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		73F7C7B918DC2E1900101E86 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +136,9 @@
 		733CBC2C18DBF60300CD067A /* senecalj_cs441a7 */ = {
 			isa = PBXGroup;
 			children = (
+				73E6DA4518DED67800381141 /* sounds */,
+				73F7C7B818DC2E1900101E86 /* Tile.m */,
+				73F7C7B918DC2E1900101E86 /* Tile.h */,
 				733CBC3518DBF60300CD067A /* AppDelegate.h */,
 				733CBC3618DBF60300CD067A /* AppDelegate.m */,
 				733CBC3818DBF60300CD067A /* Main.storyboard */,
@@ -128,8 +146,11 @@
 				733CBC3C18DBF60300CD067A /* ViewController.m */,
 				733CBC3E18DBF60300CD067A /* MyScene.h */,
 				733CBC3F18DBF60300CD067A /* MyScene.m */,
-				733CBC4118DBF60300CD067A /* Spaceship.png */,
+				73135BED18DFA2B800D54DBE /* sparks.sks */,
+				73135BEE18DFA2B800D54DBE /* spark.png */,
+				73135BEB18DF9F7400D54DBE /* instructions.png */,
 				733CBC4318DBF60300CD067A /* Images.xcassets */,
+				73135BF318DFB44300D54DBE /* Images-2.xcassets */,
 				733CBC2D18DBF60300CD067A /* Supporting Files */,
 			);
 			path = senecalj_cs441a7;
@@ -162,6 +183,16 @@
 				733CBC5318DBF60300CD067A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73E6DA4518DED67800381141 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				73E6DA4618DED68800381141 /* pop.wav */,
+				73135BE918DF907300D54DBE /* ding.wav */,
+				73EA154218DFBF9000A2B210 /* theme.wav */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,10 +271,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E6DA4718DED68800381141 /* pop.wav in Resources */,
 				733CBC3118DBF60300CD067A /* InfoPlist.strings in Resources */,
+				73EA154318DFBF9000A2B210 /* theme.wav in Resources */,
 				733CBC4418DBF60300CD067A /* Images.xcassets in Resources */,
-				733CBC4218DBF60300CD067A /* Spaceship.png in Resources */,
 				733CBC3A18DBF60300CD067A /* Main.storyboard in Resources */,
+				73135BEC18DF9F7400D54DBE /* instructions.png in Resources */,
+				73135BF018DFA2B800D54DBE /* spark.png in Resources */,
+				73135BEF18DFA2B800D54DBE /* sparks.sks in Resources */,
+				73135BF418DFB44300D54DBE /* Images-2.xcassets in Resources */,
+				73135BEA18DF907300D54DBE /* ding.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F7C7BA18DC2E1900101E86 /* Tile.m in Sources */,
 				733CBC4018DBF60300CD067A /* MyScene.m in Sources */,
 				733CBC3D18DBF60300CD067A /* ViewController.m in Sources */,
 				733CBC3718DBF60300CD067A /* AppDelegate.m in Sources */,
@@ -393,6 +431,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "senecalj_cs441a7/senecalj_cs441a7-Prefix.pch";
 				INFOPLIST_FILE = "senecalj_cs441a7/senecalj_cs441a7-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -407,6 +446,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "senecalj_cs441a7/senecalj_cs441a7-Prefix.pch";
 				INFOPLIST_FILE = "senecalj_cs441a7/senecalj_cs441a7-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -472,6 +512,7 @@
 				733CBC5C18DBF60300CD067A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		733CBC5D18DBF60300CD067A /* Build configuration list for PBXNativeTarget "senecalj_cs441a7Tests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +521,7 @@
 				733CBC5F18DBF60300CD067A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
